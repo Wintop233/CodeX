@@ -1,0 +1,26 @@
+name: tone_crafter
+description: >-
+  A Flutter app for capturing custom timbres, playing keyboard and drum pad instruments,
+  and sequencing recorded sounds with an iOS-inspired interface.
+version: 1.0.0+1
+publish_to: "none"
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  audioplayers: ^5.1.0
+  record: ^4.4.3
+  path_provider: ^2.0.14
+  path: ^1.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
